@@ -2,4 +2,7 @@
 
 {% block title %} New Time {{ offset }} days later  {% endblock %}
 
-{% block content %} {{ new_date }} {% endblock %}
+{% block content %} 
+    <!-- {{ block.super }} if you want to add parent content   -->
+    {{ new_date }} 
+{% endblock %}
